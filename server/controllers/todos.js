@@ -12,7 +12,7 @@ const addTodo = ( request, response ) => {
 
     if (! title ) return response.status(400).send(
         {
-            message: "Title is required";
+            message: "Title is required"
         }
     )
 
