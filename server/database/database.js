@@ -16,6 +16,33 @@ const connect = () => {
 
     } catch (error) {
         
+        return error;
+        
     }
 
+}
+
+connect().connect( err => {
+
+    if ( err ) {
+
+        console.log("Failed to run the database")
+
+    }
+    else {
+
+        console.log("Database is runnning")
+
+    }
+
+})
+
+connect().end( err => {
+
+    if ( err ) return console.log(err);
+
+})
+
+module.exports = {
+    connect
 }
