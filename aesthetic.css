@@ -1,0 +1,120 @@
+body {
+  font-family: 'Oswald';
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden; 
+}
+
+.todo-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: url('https://i.pinimg.com/originals/cb/0c/92/cb0c9201f498e00c63866d570d531084.gif');
+  background-size: cover;
+  overflow: hidden;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); 
+}
+
+.header {
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.gradient-background {
+  background: linear-gradient(45deg, #ffffff2c, #ffffff37);
+  border-radius: 8px;
+  padding: 10px;
+  display: inline-block;
+  
+}
+
+.gradient-text {
+  background: linear-gradient(45deg, #f850bd, #f850bd);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 36px;
+}
+
+.purple-gradient {
+  background: linear-gradient(45deg, #d7aefb, #96b5e3);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+
+
+
+.todo-list {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  list-style-type: none;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.task-details {
+  flex-grow: 1;
+}
+
+.task-title,
+.task-description {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.add-todo {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #9b59b6; 
+  color: #fff;
+  padding: 15px 30px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 18px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.add-todo:hover {
+  background-color: #8e44ad;
+}
+
+.credits {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: #fff;
+  text-align: right;
+}
+
+.credits p {
+  margin: 0;
+}
