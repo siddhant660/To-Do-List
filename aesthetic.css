@@ -12,7 +12,7 @@ body {
   position: relative;
   width: 100vw;
   height: 100vh;
-  background: url('https://i.pinimg.com/originals/cb/0c/92/cb0c9201f498e00c63866d570d531084.gif');
+  background: url('./images/background-image.gif');
   background-size: cover;
   overflow: hidden;
 }
