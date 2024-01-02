@@ -1,5 +1,5 @@
 const
-    defaultEndPoint = "http://localhost:5000/api",
+    defaultEndPoint = "https://todo-list-app-api-xxtt.onrender.com/api",
     todosWrapper = document.querySelector('.todo-list');
 
 
