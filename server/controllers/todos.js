@@ -34,9 +34,31 @@ const addTodo = ( request, response ) => {
 
     })
 
+}
+
+const getAllTodos = ( request, response ) => {
+
+    const stmt = "select * from todos";
+
+    connect().query( stmt, [], ( err, result ) => {
+
+        if ( err ) return response.status(400).send(
+            {
+                message: "An error occured, Please try again"
+            }
+        )
+
+        response.status(200).send(
+            {
+                result
+            }
+        )
+
+    })
 
 }
 
 module.exports = {
-    addTodo
+    addTodo,
+    getAllTodos
 }
