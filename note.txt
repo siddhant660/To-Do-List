@@ -13,3 +13,11 @@ message: I've created the todos.html page to see all the todos, but it's not con
 could you look at it, I'm confused about that part.
 
 -------------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+Author: joshdev19
+Date: 1 / 3 / 24
+Time: 12 : 07 AM
+message: Hi, The server is now live, you can now add and get the todos. Kindly make a "update-todo.html" so that when you click a certain todo it will redirect you to a the " update-todo.html '
+
+----------------------------------------------------------------------------
