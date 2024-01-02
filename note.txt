@@ -6,3 +6,10 @@ message: In my side, the add todo is now working but on your side it will not. b
 Can you make a page where all the todos / todo list will be rendered?
 
 ----------------------------------------------------------------------------
+Author: siddhant660
+Date: 2 / 1 / 24
+Time: 09 : 17 PM
+message: I've created the todos.html page to see all the todos, but it's not connected
+could you look at it, I'm confused about that part.
+
+-------------------------------------------------------------------------------
