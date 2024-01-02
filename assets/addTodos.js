@@ -1,5 +1,5 @@
 const
-    defaultEndPoint = "http://localhost:5000/api",
+    defaultEndPoint = "https://todo-list-app-api-xxtt.onrender.com/api",
     title = document.querySelector('.task-title'),
     description = document.querySelector('.task-description'),
     addTodoButton = document.querySelector('.add-todo');
@@ -26,7 +26,7 @@ addTodoButton.onclick = async () => {
         if ( response?.message === "Added Successfully" ) {
             
             alert( response?.message );
-            window.location.href = '/';
+            window.location.href = '/todos.html';
             return;
         }
 
