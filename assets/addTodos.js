@@ -26,7 +26,7 @@ addTodoButton.onclick = async () => {
         if ( response?.message === "Added Successfully" ) {
             
             alert( response?.message );
-            window.location.href = '/';
+            window.location.href = '/todos.html';
             return;
         }
 
