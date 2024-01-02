@@ -22,7 +22,8 @@ const addTodo = ( request, response ) => {
 
         if ( err ) return response.status(400).send(
             {
-                message: "An error occured, Please try again"
+                message: "An error occured, Please try again",
+                err
             }
         )
 
