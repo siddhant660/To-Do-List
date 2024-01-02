@@ -16,7 +16,7 @@ const addTodo = ( request, response ) => {
         }
     )
 
-    const stmt = "insert into todos ( title, description ) values ( ?, ? )";
+    const stmt = "insert into n_todos ( title, description ) values ( ?, ? )";
 
     connect().query( stmt, [ title, description ], ( err, result ) => {
 
@@ -38,7 +38,7 @@ const addTodo = ( request, response ) => {
 
 const getAllTodos = ( request, response ) => {
 
-    const stmt = "select * from todos";
+    const stmt = "select * from n_todos";
 
     connect().query( stmt, [], ( err, result ) => {
 
