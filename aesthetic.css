@@ -119,3 +119,21 @@ body {
 .credits p {
   margin: 0;
 }
+
+/*
+  Hi, I'll leave this to you to style it.
+*/
+.todo-list {
+  width: 100%;
+}
+
+.todo-list li {
+  border: 1px solid white;
+  margin: 1em 0;
+}
+
+.todo-list li a {
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+}
